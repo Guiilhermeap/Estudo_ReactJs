@@ -1,7 +1,14 @@
-function App (){
+function MyButton(){
   return (
-    <h1>Olá Mundo</h1>
+      <button> I'm a button </button>
   );
 }
 
-export default App 
+export default function MyApp() {
+  return (
+      <div>
+          <h1>Bem vindo á minha aplicação</h1>
+          <MyButton />
+      </div>
+  );
+}
